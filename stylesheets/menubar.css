@@ -1,0 +1,36 @@
+.menubar {
+  width: 100%;
+}
+
+.menubar div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 50px;
+  padding: 20px;
+}
+
+.logo {
+  display: block;
+  width: 180px;
+  height: 16px;
+  background-image: url(../images/wikimedium_logo.svg);
+}
+
+.about {
+  font-size: 14px;
+  line-height: 50px;
+  color: rgba(0,0,0,.2);
+  -webkit-transition: all .1s ease;
+  transition: all .1s ease;
+}
+
+.about:hover {
+  color: rgba(0,0,0,.4);
+}
